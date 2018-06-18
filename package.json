@@ -1,0 +1,32 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyb1991/website.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "sass",
+    "amp"
+  ],
+  "author": "Huy Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huyb1991/website/issues"
+  },
+  "homepage": "https://github.com/huyb1991/website#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.2",
+    "cssnano": "^3.10.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "postcss": "^6.0.22"
+  }
+}
