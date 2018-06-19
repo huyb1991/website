@@ -24,11 +24,5 @@
     "url": "https://github.com/huyb1991/website/issues"
   },
   "homepage": "https://github.com/huyb1991/website#readme",
-  "devDependencies": {
-    "autoprefixer": "^8.6.2",
-    "cssnano": "^3.10.0",
-    "node-sass": "^4.9.0",
-    "nodemon": "^1.17.5",
-    "postcss": "^6.0.22"
-  }
+  "devDependencies": {}
 }
