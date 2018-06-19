@@ -24,23 +24,17 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./dist'));
 });
 
-// Minify JS
+// Minify JS & Compress JS
 gulp.task('minify-js', function() {
   return gulp.src('./public/src/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('./public/src/js/min'));
-});
-
-// Compress JS
-gulp.task('compress-js', ['minify-js'], function() {
-  return gulp.src('./public/src/js/min/*.js')
     .pipe(concat('main.js'))
     .pipe(gulp.dest('./public/'));
 });
 
 gulp.task('watch', function () {
   gulp.watch(['./src/styles/**/*.scss'], ['sass']);
-  gulp.watch(['./public/src/js/*.js'], ['compress-js']);
+  gulp.watch(['./src/js/**/*.js'], ['minify-js']);
 });
 
 gulp.task('default', ['watch']);
