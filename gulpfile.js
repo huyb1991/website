@@ -15,18 +15,13 @@ gulp.task('connect', function() {
   });
 });
 
-// Compile sass
+// Compile sass and minify css
 gulp.task('sass', function() {
-  return gulp.src('./public/src/sass/**/*.scss')
+  return gulp.src('./src/styles/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./public/src/sass'));
-});
-
-// Minify CSS
-gulp.task('minify-css', ['sass'], function() {
-  return gulp.src('./public/src/sass/*.css')
     .pipe(cleanCSS())
-    .pipe(gulp.dest('./public/'));
+    .pipe(concat('styles.css'))
+    .pipe(gulp.dest('./dist'));
 });
 
 // Minify JS
@@ -44,7 +39,7 @@ gulp.task('compress-js', ['minify-js'], function() {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./public/src/sass/**/*.scss'], ['minify-css']);
+  gulp.watch(['./src/styles/**/*.scss'], ['sass']);
   gulp.watch(['./public/src/js/*.js'], ['compress-js']);
 });
 
