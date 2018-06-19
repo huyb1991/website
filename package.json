@@ -24,5 +24,12 @@
     "url": "https://github.com/huyb1991/website/issues"
   },
   "homepage": "https://github.com/huyb1991/website#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  }
 }
