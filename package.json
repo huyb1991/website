@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./src/index.js",
-    "watch": "./node_modules/.bin/nodemon -e scss -w ./ -x npm run build"
+    "start": "./node_modules/.bin/gulp connect",
+    "watch": "./node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
