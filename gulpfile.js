@@ -6,6 +6,7 @@ var gulp      = require('gulp'),
     cleanCSS  = require('gulp-clean-css'),
     uglify    = require('gulp-uglify'),
     concat    = require('gulp-concat'),
+    pug       = require('gulp-pug'),
     src       = './src',
     dist      = './dist';
 
@@ -34,9 +35,20 @@ gulp.task('minify-js', function() {
     .pipe(gulp.dest(dist));
 });
 
+// Compile Pug template
+gulp.task('pug', function() {
+  return gulp
+    .src([
+      src + '/**/*.pug',
+      '!' + src + '/**/_*.pug'
+    ])
+    .pipe(pug({}))
+    .pipe(gulp.dest(dist))
+})
+
 gulp.task('watch', function () {
   gulp.watch([src + '/**/*.scss'], ['sass']);
-  gulp.watch([src + '/**/*.js'], ['minify-js']);
+  gulp.watch([src + '/**/*.pug'], ['pug']);
 });
 
 gulp.task('default', ['watch']);
