@@ -3,16 +3,16 @@ $white: #fff;
 $black: #000;
 
 /*== Spacing ==*/
-$space-base: '20px';
+$space-base: 20px;
 $space-small: $space-base / 2;
 $space-large: $space-base * 2;
 
-// Components
+/*== Components ==*/
 $border-radius-base:      .3rem;
 $border-radius-small:     $border-radius-base / 2;
 $border-radius-large:     $border-radius-base * 1.5;
 
 /*== Breakpoints (Refer Boostrap 4) ==*/
-$phone: '576px';
-$table: '768px';
-$desktop: '1200px';
+$phone: 576px;
+$table: 768px;
+$desktop: 1200px;
