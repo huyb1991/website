@@ -1,5 +1,28 @@
 body {
-  font-family: $font-family-base;
-  padding: 0;
   margin: 0;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  color: $body-color;
+  background-color: $body-bg;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+h1, h2, h3 {
+  margin-bottom: $headings-margin-bottom;
+  font-weight: $headings-font-weight;
+}
+h1 {
+  font-size: $h1-font-size;
+}
+h2 {
+  font-size: $h2-font-size;
+}
+h3 {
+  font-size: $h3-font-size;
 }

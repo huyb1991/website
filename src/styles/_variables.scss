@@ -8,8 +8,10 @@ $font-family-base: 'Nunito', sans-serif  !default;
 $font-weight-normal:          300  !default;
 $font-weight-bold:            600 !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
+$headings-font-weight:        $font-weight-bold !default;
 $h1-font-size:                $font-size-base * 2 !default;
 $h2-font-size:                $font-size-base * 1.75 !default;
 $h3-font-size:                $font-size-base * 1.5 !default;
@@ -33,3 +35,4 @@ $desktop: 1200px;
 $body-color: $gray;
 $body-bg: $white;
 $paragraph-margin-bottom:   1rem !default;
+$headings-margin-bottom:    ($space-base / 2) !default;
