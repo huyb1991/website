@@ -1,1 +1,10 @@
-.container {}
+/*== Layouts and ultilities == */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
