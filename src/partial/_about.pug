@@ -1,6 +1,11 @@
+- var data = techStacks || {}
+
 section.text-center.about
   div.container
     h1.title huyb1991
     p Anonymous developer who have started coding since 2010
     p Familiar with:
-    include _tech-stacks
+    div.tech-stacks
+      each item in Object.keys(data)
+        a(class='tech', href=data[item].url, title=data[item].name)
+          img(class='tech-icon', src=data[item].img)
