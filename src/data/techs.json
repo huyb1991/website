@@ -34,7 +34,7 @@
     "url": "http://laravel.com/",
     "img": "https://cdn.svgporn.com/logos/laravel.svg"
   },
-  "awsS3": {
+  "awss3": {
     "name": "AWS S3",
     "url": "https://aws.amazon.com/s3/",
     "img": "https://cdn.svgporn.com/logos/aws-s3.svg"
@@ -44,7 +44,12 @@
     "url": "http://www.yiiframework.com/",
     "img": "https://cdn.svgporn.com/logos/yii.svg"
   },
-  "nodeJS": {
+  "php": {
+    "name": "PHP",
+    "url": "http://php.net/",
+    "img": "https://cdn.svgporn.com/logos/php.svg"
+  },
+  "nodejs": {
     "name": "NodeJS",
     "url": "https://nodejs.org/",
     "img": "https://cdn.svgporn.com/logos/nodejs-icon.svg"
