@@ -5,7 +5,7 @@ section.text-center.about
     h1.title huyb1991
     p Anonymous developer who have started coding since 2010
     p Familiar with:
-    div.tech-stacks
+    div.flex.flex--center
       each item in Object.keys(data)
         a(class='tech tech--large', href=data[item].url, title=data[item].name)
           img(class='tech-icon', src=data[item].img)
