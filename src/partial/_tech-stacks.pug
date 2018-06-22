@@ -1,0 +1,22 @@
+- var list = []
+- list.push({name: 'HTML5', url: 'https://www.w3.org/TR/2010/WD-html5-20100624/', img: 'https://cdn.svgporn.com/logos/html-5.svg'})
+- list.push({name: 'CSS3', url: 'https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/', img: 'https://cdn.svgporn.com/logos/css-3.svg'})
+- list.push({name: 'Gulp', url: 'http://gulpjs.com/', img: 'https://cdn.svgporn.com/logos/gulp.svg'})
+- list.push({name: 'Webpack', url: 'http://webpack.github.io/', img: 'https://cdn.svgporn.com/logos/webpack.svg'})
+- list.push({name: 'React', url: 'https://facebook.github.io/react/', img: 'https://cdn.svgporn.com/logos/react.svg'})
+- list.push({name: 'AngularJS', url: 'https://angular.io/', img: 'https://cdn.svgporn.com/logos/angular-icon.svg'})
+- list.push({name: 'Laravel', url: 'http://laravel.com/', img: 'https://cdn.svgporn.com/logos/laravel.svg'})
+- list.push({name: 'AWS S3', url: 'https://aws.amazon.com/s3/', img: 'https://cdn.svgporn.com/logos/aws-s3.svg'})
+- list.push({name: 'Yii', url: 'http://www.yiiframework.com/', img: 'https://cdn.svgporn.com/logos/yii.svg'})
+- list.push({name: 'NodeJS', url: 'https://nodejs.org/', img: 'https://cdn.svgporn.com/logos/nodejs-icon.svg'})
+- list.push({name: 'MongoDB', url: 'https://www.mongodb.org/', img: 'https://cdn.svgporn.com/logos/mongodb.svg'})
+- list.push({name: 'Lumen', url: 'http://lumen.laravel.com/', img: 'https://cdn.svgporn.com/logos/lumen.svg'})
+- list.push({name: 'Apache', url: 'http://www.apache.org/', img: 'https://cdn.svgporn.com/logos/apache.svg'})
+- list.push({name: 'NGINX', url: 'https://www.nginx.com/', img: 'https://cdn.svgporn.com/logos/nginx.svg'})
+- list.push({name: 'Slim', url: 'http://www.slimframework.com/', img: 'https://cdn.svgporn.com/logos/slim.svg'})
+- list.push({name: 'MySQL', url: 'http://dev.mysql.com/', img: 'https://cdn.svgporn.com/logos/mysql.svg'})
+
+div.tech-stacks
+  each item in list
+    a(class='tech', href=item.url, title=item.name)
+      img(class='tech-icon', src=item.img)
