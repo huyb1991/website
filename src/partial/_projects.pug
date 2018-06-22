@@ -4,8 +4,9 @@
 section.text-center
   h2 Recent Projects
   each project in projectArr
-    p= project.name
-    div.tech-stacks
-      each tech in project.stacks
-        a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
-          img(class='tech-icon', src=stackObj[tech].img)
+    section.card
+      p= project.name
+      div.tech-stacks
+        each tech in project.stacks
+          a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
+            img(class='tech-icon', src=stackObj[tech].img)

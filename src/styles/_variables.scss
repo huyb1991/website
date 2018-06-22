@@ -23,7 +23,7 @@ $space-large: $space-base * 2;
 
 /*== Components ==*/
 $border-width:            1px !default;
-$border-color:            $gray !default;
+$border-color:            lighten($gray, 50%) !default;
 $border-radius-base:      .3rem;
 $border-radius-small:     $border-radius-base / 2;
 $border-radius-large:     $border-radius-base * 1.5;
