@@ -6,7 +6,7 @@ section.text-center
   each project in projectArr
     section.card
       p= project.name
-      div.tech-stacks
+      div.flex.flex--center
         each tech in project.stacks
           a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
             img(class='tech-icon', src=stackObj[tech].img)
