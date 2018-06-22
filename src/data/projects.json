@@ -2,11 +2,13 @@
   {
     "name": "TopUpMeters",
     "url": "https://topupmeters.co.uk/",
-    "img": "https://cdn.svgporn.com/logos/html-5.svg"
+    "img": "https://cdn.svgporn.com/logos/html-5.svg",
+    "stacks": ["html5", "css3", "php"]
   },
   {
     "name": "TopUpMeters2",
     "url": "https://topupmeters.co.uk/",
-    "img": "https://cdn.svgporn.com/logos/html-5.svg"
+    "img": "https://cdn.svgporn.com/logos/html-5.svg",
+    "stacks": ["html5", "css3"]
   }
 ]
