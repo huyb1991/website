@@ -12,8 +12,7 @@
 
 .tech {
   cursor: pointer;
-  margin: $space-base;
-  padding: $space-small;
+  margin: $space-small;
   width: 2rem;
   height: 2rem;
 
@@ -21,6 +20,8 @@
   &--large {
     width: 4rem;
     height: 4rem;
+    margin: $space-base;
+    padding: $space-small;
 
     &:hover {
       background-color: $white;
@@ -31,12 +32,6 @@
 
 .project {
   width: 100%;
-
-  @media (min-width: $table) {
-    width: 50%;
-  }
-
-  @media (min-width: $desktop) {
-    width: 25%;
-  }
+  @media (min-width: $table) { width: 50%; }
+  @media (min-width: $desktop) { width: 25%; }
 }
