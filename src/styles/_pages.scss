@@ -10,6 +10,24 @@
   font-size: $h1-font-size * 1.5;
 }
 
+// Social networks
+.social {
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &-item {
+    display: inline-block;
+    margin: 0 0.2rem;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
 .tech {
   cursor: pointer;
   margin: $space-small;
