@@ -25,3 +25,14 @@
 .text-center {
   text-align: center;
 }
+
+.heart-beating {
+  display: inline-block;
+  color: #e00;
+  animation: beating .5s infinite alternate;
+  margin: 0 0.1rem;
+}
+
+@keyframes beating {
+  to { transform: scale(1.2); }
+}
