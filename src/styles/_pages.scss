@@ -14,13 +14,13 @@
   cursor: pointer;
   margin: $space-base;
   padding: $space-small;
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
 
   // Modifier
   &--large {
-    width: 60px;
-    height: 60px;
+    width: 4rem;
+    height: 4rem;
 
     &:hover {
       background-color: $white;
