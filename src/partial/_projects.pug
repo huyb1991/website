@@ -3,10 +3,16 @@
 
 section.text-center
   h2 Recent Projects
-  each project in projectArr
-    section.card
-      p= project.name
-      div.flex.flex--center
-        each tech in project.stacks
-          a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
-            img(class='tech-icon', src=stackObj[tech].img)
+  div.flex.flex--center
+    each project in projectArr
+      div.project
+        section.card
+          h3.project-title= project.name
+          div.project-img
+            img(alt=project.name, src=project.img)
+          div.project-stacks.flex.flex--center
+            each tech in project.stacks
+              a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
+                img(alt=stackObj[tech].name, src=stackObj[tech].img)
+          div.project-desc
+            p= project.desc
