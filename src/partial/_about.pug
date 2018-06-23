@@ -1,4 +1,4 @@
-- var data = techStacks || {}
+- var stacks = techStacks || {}
 - var socials = socialNetworks || {}
 
 section.text-center.about
@@ -15,6 +15,6 @@ section.text-center.about
     p Familiar with:
 
     div.flex.flex--center
-      each item in Object.keys(data)
-        a(class='tech tech--large', href=data[item].url, title=data[item].name)
-          img(alt=data[item].name, src=data[item].img)
+      each item in Object.keys(stacks)
+        a(class='tech tech--large', href=stacks[item].url, title=stacks[item].name)
+          img(alt=stacks[item].name, src=stacks[item].img)
