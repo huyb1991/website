@@ -47,6 +47,7 @@ gulp.task('pug', function() {
     ])
     .pipe(data(function (file) {
       return {
+        'socialNetworks': JSON.parse(fs.readFileSync('./src/data/social-networks.json')),
         'techStacks': JSON.parse(fs.readFileSync('./src/data/techs.json')),
         'projects': JSON.parse(fs.readFileSync('./src/data/projects.json'))
       }
