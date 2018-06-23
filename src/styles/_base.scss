@@ -8,6 +8,10 @@ body {
   background-color: $body-bg;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   margin-top: 0;
   margin-bottom: $paragraph-margin-bottom;
