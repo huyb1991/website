@@ -8,4 +8,4 @@ section.text-center.about
     div.flex.flex--center
       each item in Object.keys(data)
         a(class='tech tech--large', href=data[item].url, title=data[item].name)
-          img(class='tech-icon', src=data[item].img)
+          img(alt=data[item].name, src=data[item].img)
