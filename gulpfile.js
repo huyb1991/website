@@ -55,6 +55,12 @@ gulp.task('pug', function() {
     .pipe(gulp.dest(dist))
 })
 
+// Copy static files
+gulp.task('copy', function() {
+  return gulp.src(src + '/static/**/*.*')
+    .pipe(gulp.dest(dist + '/static'))
+})
+
 gulp.task('watch', function () {
   gulp.watch([src + '/**/*.scss'], ['sass']);
   gulp.watch([src + '/**/*.pug'], ['pug']);
