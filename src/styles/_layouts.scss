@@ -5,6 +5,14 @@
   margin-left: auto;
 }
 
+.footer {
+  margin-top: 2rem;
+  padding: 1.5rem 1rem 1rem;
+  background-color: $black;
+  text-align: center;
+  color: $white;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
