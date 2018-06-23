@@ -1,10 +1,19 @@
 - var data = techStacks || {}
+- var socials = socialNetworks || {}
 
 section.text-center.about
   div.container
     h1.title huyb1991
+
+    ul.social-list
+      each item in Object.keys(socials)
+        li.social-item
+          a(href=socials[item].url, title=socials[item].name, target="_blank")
+            span(class="icon icon-"+item)
+
     p Anonymous developer who have started coding since 2010
     p Familiar with:
+
     div.flex.flex--center
       each item in Object.keys(data)
         a(class='tech tech--large', href=data[item].url, title=data[item].name)
