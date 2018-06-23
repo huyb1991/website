@@ -14,5 +14,4 @@ section.text-center
             each tech in project.stacks
               a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
                 img(alt=stackObj[tech].name, src=stackObj[tech].img)
-          div.project-desc
-            p= project.desc
+          p.project-desc= project.desc

@@ -34,4 +34,25 @@
   width: 100%;
   @media (min-width: $table) { width: 50%; }
   @media (min-width: $desktop) { width: 25%; }
+
+  &-title {
+    margin-top: $space-small;
+  }
+
+  &-img {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+  }
+
+  &-stacks {
+    margin-top: $space-base;
+  }
+
+  &-desc {
+    font-size: $font-size-base*0.75;
+    max-height: 3.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
 }
