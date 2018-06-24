@@ -45,36 +45,54 @@ $font-icon-path: '/fonts/';
 .icon {
   &-email {
     @include create-icon-font-content($icon-email);
+    @include create-icon-font-hover-color($icon-email-color);
   }
-  &-rss {
-    @include create-icon-font-content($icon-rss);
+  &-skype {
+    @include create-icon-font-content($icon-skype);
+    @include create-icon-font-hover-color($icon-skype-color);
   }
   &-github {
     @include create-icon-font-content($icon-github);
+    @include create-icon-font-hover-color($icon-github-color);
   }
-  &-dribbble {
-    @include create-icon-font-content($icon-dribbble);
+  &-stackoverflow {
+    @include create-icon-font-content($icon-stackoverflow);
+    @include create-icon-font-hover-color($icon-stackoverflow-color);
+  }
+  &-codepen {
+    @include create-icon-font-content($icon-codepen);
+    @include create-icon-font-hover-color($icon-codepen-color);
+  }
+  &-goodreads {
+    @include create-icon-font-content($icon-goodreads);
+    @include create-icon-font-hover-color($icon-goodreads-color);
   }
   &-linkedin {
     @include create-icon-font-content($icon-linkedin);
+    @include create-icon-font-hover-color($icon-linkedin-color);
   }
   &-twitter {
     @include create-icon-font-content($icon-twitter);
+    @include create-icon-font-hover-color($icon-twitter-color);
   }
-  &-facebook {
-    @include create-icon-font-content($icon-facebook);
-    @include create-icon-font-hover-color($icon-facebook-color);
-  }
-  &-instagram {
-    @include create-icon-font-content($icon-instagram);
-    @include create-icon-font-hover-color($icon-instagram-color);
+  &-spotify {
+    @include create-icon-font-content($icon-spotify);
+    @include create-icon-font-hover-color($icon-spotify-color);
   }
   &-youtube {
     @include create-icon-font-content($icon-youtube);
     @include create-icon-font-hover-color($icon-youtube-color);
   }
-  &-google {
-    @include create-icon-font-content($icon-google);
-    @include create-icon-font-hover-color($icon-google-color);
+  &-soundcloud {
+    @include create-icon-font-content($icon-soundcloud);
+    @include create-icon-font-hover-color($icon-soundcloud-color);
+  }
+  &-instagram {
+    @include create-icon-font-content($icon-instagram);
+    @include create-icon-font-hover-color($icon-instagram-color);
+  }
+  &-facebook {
+    @include create-icon-font-content($icon-facebook);
+    @include create-icon-font-hover-color($icon-facebook-color);
   }
 }
