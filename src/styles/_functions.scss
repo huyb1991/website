@@ -3,3 +3,7 @@
 @mixin variable-icon-font($icon-code) {
   content: #{"\"\\"}#{$icon-code + "\""};
 }
+
+@mixin create-icon-font-hover-color($icon-name) {
+  &:hover { color: $icon-name;}
+}
