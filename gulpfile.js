@@ -59,7 +59,7 @@ gulp.task('pug', function() {
 // Copy static files
 gulp.task('copy', function() {
   return gulp.src(src + '/static/**/*.*')
-    .pipe(gulp.dest(dist + '/static'))
+    .pipe(gulp.dest(dist))
 })
 
 gulp.task('watch', function () {
