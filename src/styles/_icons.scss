@@ -44,37 +44,37 @@ $font-icon-path: '/fonts/';
 // Font code
 .icon {
   &-email {
-    &:before { @include variable-icon-font($icon-email); }
+    @include create-icon-font-content($icon-email);
   }
   &-rss {
-    &::before { @include variable-icon-font($icon-rss); }
+    @include create-icon-font-content($icon-rss);
   }
   &-github {
-    &::before { @include variable-icon-font($icon-github); }
+    @include create-icon-font-content($icon-github);
   }
   &-dribbble {
-    &::before { @include variable-icon-font($icon-dribbble); }
+    @include create-icon-font-content($icon-dribbble);
   }
   &-linkedin {
-    &::before { @include variable-icon-font($icon-linkedin); }
+    @include create-icon-font-content($icon-linkedin);
   }
   &-twitter {
-    &::before { @include variable-icon-font($icon-twitter); }
+    @include create-icon-font-content($icon-twitter);
   }
   &-facebook {
-    &::before { @include variable-icon-font($icon-facebook); }
+    @include create-icon-font-content($icon-facebook);
     &:hover { color: $color-facebook;}
   }
   &-instagram {
-    &::before { @include variable-icon-font($icon-instagram); }
+    @include create-icon-font-content($icon-instagram);
     @include create-icon-font-hover-color($color-instagram);
   }
   &-youtube {
-    &::before { @include variable-icon-font($icon-youtube); }
+    @include create-icon-font-content($icon-youtube);
     &:hover { color: $color-youtube;}
   }
   &-google {
-    &::before { @include variable-icon-font($icon-google); }
+    @include create-icon-font-content($icon-google);
     &:hover { color: $color-google;}
   }
 }
