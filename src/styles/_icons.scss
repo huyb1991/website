@@ -63,7 +63,7 @@ $font-icon-path: '/fonts/';
   }
   &-facebook {
     @include create-icon-font-content($icon-facebook);
-    &:hover { color: $color-facebook;}
+    @include create-icon-font-hover-color($color-facebook);
   }
   &-instagram {
     @include create-icon-font-content($icon-instagram);
@@ -71,10 +71,10 @@ $font-icon-path: '/fonts/';
   }
   &-youtube {
     @include create-icon-font-content($icon-youtube);
-    &:hover { color: $color-youtube;}
+    @include create-icon-font-hover-color($color-youtube);
   }
   &-google {
     @include create-icon-font-content($icon-google);
-    &:hover { color: $color-google;}
+    @include create-icon-font-hover-color($color-google);
   }
 }
