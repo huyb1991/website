@@ -67,7 +67,7 @@ $font-icon-path: '/fonts/';
   }
   &-instagram {
     &::before { @include variable-icon-font($icon-instagram); }
-    &:hover { color: $color-instagram;}
+    @include create-icon-font-hover-color($color-instagram);
   }
   &-youtube {
     &::before { @include variable-icon-font($icon-youtube); }
