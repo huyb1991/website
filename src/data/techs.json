@@ -2,111 +2,111 @@
   "html5": {
     "name": "HTML5",
     "url": "https://www.w3.org/TR/2010/WD-html5-20100624/",
-    "img": "/img/html-5.svg"
+    "img": "/img/tech/html-5.svg"
   },
   "css3": {
     "name": "CSS3",
     "url": "https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/",
-    "img": "/img/css-3.svg"
+    "img": "/img/tech/css-3.svg"
   },
   "bootstrap": {
     "name": "Bootstrap",
     "url": "http://getbootstrap.com/",
-    "img": "/img/bootstrap.svg"
+    "img": "/img/tech/bootstrap.svg"
   },
   "sass": {
     "name": "SaSS",
     "url": "http://sass-lang.com/",
-    "img": "/img/sass.svg"
+    "img": "/img/tech/sass.svg"
   },
   "gulp": {
     "name": "Gulp",
     "url": "http://gulpjs.com/",
-    "img": "/img/gulp.svg"
+    "img": "/img/tech/gulp.svg"
   },
   "webpack": {
     "name": "Webpack",
     "url": "http://webpack.github.io/",
-    "img": "/img/webpack.svg"
+    "img": "/img/tech/webpack.svg"
   },
   "react": {
     "name": "React",
     "url": "https://facebook.github.io/react/",
-    "img": "/img/react.svg"
+    "img": "/img/tech/react.svg"
   },
   "angular": {
     "name": "AngularJS",
     "url": "https://angular.io/",
-    "img": "/img/angular-icon.svg"
+    "img": "/img/tech/angular-icon.svg"
   },
   "nodejs": {
     "name": "NodeJS",
     "url": "https://nodejs.org/",
-    "img": "/img/nodejs-icon.svg"
+    "img": "/img/tech/nodejs-icon.svg"
   },
   "laravel": {
     "name": "Laravel",
     "url": "http://laravel.com/",
-    "img": "/img/laravel.svg"
+    "img": "/img/tech/laravel.svg"
   },
   "lumen": {
     "name": "Lumen",
     "url": "http://lumen.laravel.com/",
-    "img": "/img/lumen.svg"
+    "img": "/img/tech/lumen.svg"
   },
   "slim": {
     "name": "Slim",
     "url": "http://www.slimframework.com/",
-    "img": "/img/slim.svg"
+    "img": "/img/tech/slim.svg"
   },
   "yii": {
     "name": "Yii",
     "url": "http://www.yiiframework.com/",
-    "img": "/img/yii.svg"
+    "img": "/img/tech/yii.svg"
   },
   "drupal": {
     "name": "Drupal",
     "url": "https://www.drupal.org/",
-    "img": "/img/drupal.svg"
+    "img": "/img/tech/drupal.svg"
   },
   "php": {
     "name": "PHP",
     "url": "http://php.net/",
-    "img": "/img/php.svg"
+    "img": "/img/tech/php.svg"
   },
   "mongodb": {
     "name": "MongoDB",
     "url": "https://www.mongodb.org/",
-    "img": "/img/mongodb.svg"
+    "img": "/img/tech/mongodb.svg"
   },
   "mysql": {
     "name": "MySQL",
     "url": "http://dev.mysql.com/",
-    "img": "/img/mysql.svg"
+    "img": "/img/tech/mysql.svg"
   },
   "salesforce": {
     "name": "Salesforce",
     "url": "http://www.salesforce.com/",
-    "img": "/img/salesforce.svg"
+    "img": "/img/tech/salesforce.svg"
   },
   "awss3": {
     "name": "AWS S3",
     "url": "https://aws.amazon.com/s3/",
-    "img": "/img/aws-s3.svg"
+    "img": "/img/tech/aws-s3.svg"
   },
   "express": {
     "name": "Express",
     "url": "http://expressjs.com/",
-    "img": "/img/express.svg"
+    "img": "/img/tech/express.svg"
   },
   "apache": {
     "name": "Apache",
     "url": "http://www.apache.org/",
-    "img": "/img/apache.svg"
+    "img": "/img/tech/apache.svg"
   },
   "nginx": {
     "name": "NGINX",
     "url": "https://www.nginx.com/",
-    "img": "/img/nginx.svg"
+    "img": "/img/tech/nginx.svg"
   }
 }
