@@ -82,7 +82,7 @@
   "express": {
     "name": "Express",
     "url": "http://expressjs.com/",
-    "img": "/img/apache.svg"
+    "img": "/img/express.svg"
   },
   "apache": {
     "name": "Apache",
