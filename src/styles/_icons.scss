@@ -63,18 +63,18 @@ $font-icon-path: '/fonts/';
   }
   &-facebook {
     @include create-icon-font-content($icon-facebook);
-    @include create-icon-font-hover-color($color-facebook);
+    @include create-icon-font-hover-color($icon-facebook-color);
   }
   &-instagram {
     @include create-icon-font-content($icon-instagram);
-    @include create-icon-font-hover-color($color-instagram);
+    @include create-icon-font-hover-color($icon-instagram-color);
   }
   &-youtube {
     @include create-icon-font-content($icon-youtube);
-    @include create-icon-font-hover-color($color-youtube);
+    @include create-icon-font-hover-color($icon-youtube-color);
   }
   &-google {
     @include create-icon-font-content($icon-google);
-    @include create-icon-font-hover-color($color-google);
+    @include create-icon-font-hover-color($icon-google-color);
   }
 }
