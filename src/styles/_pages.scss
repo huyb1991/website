@@ -54,6 +54,7 @@
   @media (min-width: $desktop) { width: 25%; }
 
   &-title {
+    font-size: $font-size-base;
     margin-top: $space-small;
   }
 
