@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hugo LAMP",
+    "url": "https://themes.gohugo.io/hugo-lamp/",
+    "img": "/img/project/hugo-lamp.png",
+    "stacks": ["html5", "css3", "webpack"],
+    "desc": "A light responsive Hugo ⚡ AMP theme for blogger."
+  },
+  {
+    "name": "The Luxury Closet",
+    "url": "http://theluxurycloset.com/",
+    "img": "/img/project/tlc.png",
+    "stacks": ["yii", "mysql", "nginx", "awss3"],
+    "desc": "Online selling website: Buy & Sell authentic pre-owned luxury brands."
+  },
+  {
+    "name": "Spider Web Service",
+    "url": "#",
+    "img": "/img/project/spider-web-service.png",
+    "stacks": ["salesforce"],
+    "desc": "Analyze data for report and build communicate system for small company."
+  },
+  {
+    "name": "TestGearOnline",
+    "url": "http://www.testgearonline.com/",
+    "img": "/img/project/tgo-education.png",
+    "stacks": ["bootstrap", "drupal", "mysql"],
+    "desc": "Maintenance and Improve a web-based application to support for purchasing software products."
+  },
+  {
+    "name": "EME",
+    "url": "#",
+    "img": "/img/project/elearning-medial-education.png",
+    "stacks": ["html5", "css3", "bootstrap"],
+    "desc": "Web-based application to support for medical education."
+  },
+  {
+    "name": "RecordsHYIP",
+    "url": "http://recordshyip.com/",
+    "img": "/img/project/recordshyip.png",
+    "stacks": ["bootstrap", "laravel", "mysql", "apache"],
+    "desc": "Online investment monitor website."
+  }
+]

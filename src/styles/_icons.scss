@@ -1,0 +1,98 @@
+$font-icon-name: 'fe';
+$font-icon-path: '/fonts/';
+
+@font-face {
+  font-family: $font-icon-name;
+  font-weight: normal;
+  font-style: normal;
+  src: url($font-icon-path + 'fe.eot');
+  src: url($font-icon-path + 'fe.eot#iefix') format('embedded-opentype'),
+       url($font-icon-path + 'fe.woff2') format('woff2'),
+       url($font-icon-path + 'fe.woff') format('woff'),
+       url($font-icon-path + 'fe.ttf') format('truetype'),
+       url($font-icon-path + 'fe.svg#fe') format('svg');
+}
+
+.icon {
+  font-family: $font-icon-name;
+  font-style: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+// Font code
+.icon {
+  &-email {
+    @include create-icon-font-content($icon-email);
+    @include create-icon-font-hover-color($icon-email-color);
+  }
+  &-skype {
+    @include create-icon-font-content($icon-skype);
+    @include create-icon-font-hover-color($icon-skype-color);
+  }
+  &-github {
+    @include create-icon-font-content($icon-github);
+    @include create-icon-font-hover-color($icon-github-color);
+  }
+  &-stackoverflow {
+    @include create-icon-font-content($icon-stackoverflow);
+    @include create-icon-font-hover-color($icon-stackoverflow-color);
+  }
+  &-codepen {
+    @include create-icon-font-content($icon-codepen);
+    @include create-icon-font-hover-color($icon-codepen-color);
+  }
+  &-goodreads {
+    @include create-icon-font-content($icon-goodreads);
+    @include create-icon-font-hover-color($icon-goodreads-color);
+  }
+  &-linkedin {
+    @include create-icon-font-content($icon-linkedin);
+    @include create-icon-font-hover-color($icon-linkedin-color);
+  }
+  &-twitter {
+    @include create-icon-font-content($icon-twitter);
+    @include create-icon-font-hover-color($icon-twitter-color);
+  }
+  &-spotify {
+    @include create-icon-font-content($icon-spotify);
+    @include create-icon-font-hover-color($icon-spotify-color);
+  }
+  &-youtube {
+    @include create-icon-font-content($icon-youtube);
+    @include create-icon-font-hover-color($icon-youtube-color);
+  }
+  &-soundcloud {
+    @include create-icon-font-content($icon-soundcloud);
+    @include create-icon-font-hover-color($icon-soundcloud-color);
+  }
+  &-instagram {
+    @include create-icon-font-content($icon-instagram);
+    @include create-icon-font-hover-color($icon-instagram-color);
+  }
+  &-facebook {
+    @include create-icon-font-content($icon-facebook);
+    @include create-icon-font-hover-color($icon-facebook-color);
+  }
+}

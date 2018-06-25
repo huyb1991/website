@@ -1,2 +1,17 @@
-section
+- var projectArr = projects || [];
+- var stackObj = techStacks || {};
+
+section.text-center
   h2 Recent Projects
+  div.flex.flex--center
+    each project in projectArr
+      div.project
+        section.card
+          h3.project-title= project.name
+          div.project-img
+            img(alt=project.name, src=project.img)
+          div.project-stacks.flex.flex--center
+            each tech in project.stacks
+              a(class='tech', href=stackObj[tech].url, title=stackObj[tech].name)
+                img(alt=stackObj[tech].name, src=stackObj[tech].img)
+          p.project-desc= project.desc

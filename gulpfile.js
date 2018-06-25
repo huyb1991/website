@@ -7,6 +7,9 @@ var gulp      = require('gulp'),
     uglify    = require('gulp-uglify'),
     concat    = require('gulp-concat'),
     pug       = require('gulp-pug'),
+    data      = require('gulp-data'),
+    path      = require('path'),
+    fs        = require('fs'),
     src       = './src',
     dist      = './dist';
 
@@ -42,7 +45,20 @@ gulp.task('pug', function() {
       src + '/**/*.pug',
       '!' + src + '/**/_*.pug'
     ])
+    .pipe(data(function (file) {
+      return {
+        'socialNetworks': JSON.parse(fs.readFileSync('./src/data/social-networks.json')),
+        'techStacks': JSON.parse(fs.readFileSync('./src/data/techs.json')),
+        'projects': JSON.parse(fs.readFileSync('./src/data/projects.json'))
+      }
+    }))
     .pipe(pug({}))
+    .pipe(gulp.dest(dist))
+})
+
+// Copy static files
+gulp.task('copy', function() {
+  return gulp.src(src + '/static/**/*.*')
     .pipe(gulp.dest(dist))
 })
 

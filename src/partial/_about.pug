@@ -1,2 +1,20 @@
-section
-  h1 About section
+- var stacks = techStacks || {}
+- var socials = socialNetworks || {}
+
+section.text-center.about
+  div.container
+    h1.title huyb1991
+
+    ul.social-list
+      each item in Object.keys(socials)
+        li.social-item
+          a(href=socials[item].url, title=socials[item].name, target="_blank")
+            span(class="icon icon-"+item)
+
+    p Anonymous developer who have started coding since 2010
+    p Familiar with:
+
+    div.flex.flex--center
+      each item in Object.keys(stacks)
+        a(class='tech tech--large', href=stacks[item].url, title=stacks[item].name)
+          img(alt=stacks[item].name, src=stacks[item].img)

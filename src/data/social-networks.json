@@ -1,0 +1,38 @@
+{
+  "email": {
+    "name": "Email",
+    "url": "mailto:huyb.1991@gmail.com"
+  },
+  "skype": {
+    "name": "Skype",
+    "url": "skype:huyb1991?chat"
+  },
+  "github": {
+    "name": "Github",
+    "url": "https://github.com/huyb1991"
+  },
+  "stackoverflow": {
+    "name": "StackOverflow",
+    "url": "https://stackoverflow.com/users/5456204/huy-nguyen"
+  },
+  "codepen": {
+    "name": "CodePen",
+    "url": "https://codepen.io/huyb1991/"
+  },
+  "goodreads": {
+    "name": "GoodReads",
+    "url": "https://www.goodreads.com/huyb1991"
+  },
+  "spotify": {
+    "name": "Spotify",
+    "url": "https://open.spotify.com/user/s984mddq8vnjqjzgiuxd72ubi"
+  },
+  "youtube": {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/UCjHg1X-aqclYaaVTchlrHsg"
+  },
+  "soundcloud": {
+    "name": "SoundCloud",
+    "url": "https://soundcloud.com/huyb1991"
+  }
+}

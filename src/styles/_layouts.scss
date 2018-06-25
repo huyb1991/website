@@ -1,0 +1,38 @@
+/*== Layouts and ultilities == */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1.5rem 1rem 1rem;
+  background-color: $black;
+  text-align: center;
+  color: $white;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  &--center {
+    justify-content: center;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heart-beating {
+  display: inline-block;
+  color: #e00;
+  animation: beating .5s infinite alternate;
+  margin: 0 0.1rem;
+}
+
+@keyframes beating {
+  to { transform: scale(1.2); }
+}

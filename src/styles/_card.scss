@@ -1,0 +1,13 @@
+.card {
+  position: relative;
+  top: 0;
+  border: $border-width solid $border-color;
+  border-radius: $border-radius-base;
+  transition: all .2s ease-in-out;
+  margin: $space-base;
+
+  &:hover {
+    top: -1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  }
+}
