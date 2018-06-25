@@ -23,14 +23,6 @@
     "name": "GoodReads",
     "url": "https://www.goodreads.com/huyb1991"
   },
-  "linkedin": {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/huyng/"
-  },
-  "twitter": {
-    "name": "Twitter",
-    "url": "https://twitter.com/huyb1991"
-  },
   "spotify": {
     "name": "Spotify",
     "url": "https://open.spotify.com/user/s984mddq8vnjqjzgiuxd72ubi"
@@ -42,13 +34,5 @@
   "soundcloud": {
     "name": "SoundCloud",
     "url": "https://soundcloud.com/huyb1991"
-  },
-  "instagram": {
-    "name": "Instagram",
-    "url": "https://www.instagram.com/huyb1991/"
-  },
-  "facebook": {
-    "name": "Facebook",
-    "url": "https://fb.com/huyb1991"
   }
 }
